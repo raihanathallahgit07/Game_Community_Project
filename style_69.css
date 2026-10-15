@@ -1,12 +1,12 @@
-.body {
+body {
     background-color: black;
 }
-.h1 {
+h1 {
     background-color: white;
 }
-.h2 {
+h2 {
     background-color: white;
 }
-.p {
+p {
     background-color: red;
 }
