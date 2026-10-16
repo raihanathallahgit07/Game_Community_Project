@@ -3,15 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Dijamin Gacor</title>
+    <title>Game Community</title>
     <link rel="stylesheet" href="style_69.css">
 </head>
 <body>
-    <h1>Judul Website</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum eaque perspiciatis maxime, facere odit mollitia assumenda. Rerum fugit saepe maiores animi illo beatae suscipit ab, at a consequatur, sint neque!</p>
+    
+    <!-- NAVIGASI -->
+     <header>
+        <nav class="navbar">
+            <div class="logo">Game<span>Speak</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#content">Komunitas Game</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+     </header>
 
-    <h2>Sub judul website</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt voluptatum, nam qui, consequuntur optio reiciendis necessitatibus fugit minima laboriosam mollitia quos perspiciatis quae modi fugiat exercitationem sed magnam eum alias?</p>
+    <!-- SECTION 1: HOME / HERO SECTION -->
+     <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Membangun Komunitas Positif dalam Dunia Game</h1>
+            <p>Selamat datang di <strong>GameSpeak</strong>! Tempat berkumpulnya para gamer untuk belajar belajar shotcalling (komando), komunikasi yang efektif, serta memberantas toxicity (perilaku negatif) di dalam game, terutama yang berbasis Multiplayer.</p>
+            <div class="hero-buttons">
+                <a href="#content" class="btn btn-primary">Jelajahi Panduan</a>
+                <a href="#about" class="btn btn-secondary">Tentang Komunitas</a>
+            </div>
+        </div>
+     </section>
+
+    <!-- SECTION 2: ABOUT / PROFILE -->
+     <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Komunitas Kami</h2>
+
+            <!-- TAMBAHIN GAMBARNYA DISINI -->
+             <div class="about-img-container" style="margin-bottom:30px;">
+                <img src="komunitas.jpg" alt="Ilustrasi Komunitas Game" style="width: 100%; max-width: 500px; border-radius: 10px;">
+             </div>
+             
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Latar Belakang</h3>
+                    <p>Komunikasi adalah kunci utama kemenangan dalam game bertema squad/multiplayer seperti (FPS, MOBA, Battle Royale). Namun, sering kali komunikasi terhambat oleh toxic behavior (perilaku negatif) dan in-game callout yang buruk.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Visi & Misi</h3>
+                    <p>Menciptakan ekosistem gaming yang inklusif, inklusif, supportif, dan profesional dengan mengedepankan etika berkomunikasi serta kerja sama tim yang solid.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- SECTION 3: MAIN CONTENT (TOPIK UTAMA KOMUNIKASI GAME) -->
+     <section id="content" class="main-content">
+        <div class="container">
+            <h2>Fitur dan Panduan Komunikasi dalam Game</h2>
+            <p class="subtitle">Tingkatkan skill komunikasi in-game kamu bersama tips dari para veteran!</p>
+
+            <div class="card-grid">
+                <!-- Card 1 -->
+                 <div class="card">
+                    <div class="card-icon">🎙️</div>
+                    <h3>Effective shotcalling</h3>
+                    <p>Cara memberikan perintah singkat, jelas, dan lugas saat situasi "clutch" tanpa membuat anggota tim panik.</p>
+                 </div>
+                <!-- Card 2 -->
+                 <div class="card-icon">🛡️</div>
+                 <h3>Anti-Toxicity & Chill</h3>
+                 <p>Mekanisme mengontrol emosi, meredam pertengkaran antartim, dan membangun suasana bermain yang tetap menyenangkan.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎧</div>
+                <h3>Glosarium & Callout Trems</h3>
+                <p>Pelajari istilah-istilah pining, pinging, rotation, dan informasi mikro/makro yang wajib dipahami di berbagai genre game.</p>
+            </div>
+        </div>
+     </section>
+
+    <!-- SECTION 4: CONTACT & FOOTER -->
+     <section id="contact" class="contact">
+        <div class="container">
+            <h2>Hubungi & Bergabung Bersama Kami</h2>
+            <p>Punya pertanyaan atau ingin bergabung dengan server Discord komunitas kami</p>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Pesan berhasil terkirim!');">
+                <input type="text" placeholder="Nama Lengkap" required>
+                <input type="email" placeholder="Email / ID Discord" required>
+                <textarea rows="4" placeholder="Pesan atau Saran untuk Komunitas..." required></textarea>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+     </section>
+
+    <!-- FOOTER  -->
+     <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 GameSpeak Community. Mini Project Catalyst.</p>
+            <div class="socials">
+                <a href="#">Discord</a> | <a href="#">Instagram</a> | <a href="#">GitHub</a>
+            </div>
+        </div>
+     </footer>
+
 </body>
 </html>
 
