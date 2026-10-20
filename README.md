@@ -24,4 +24,13 @@ d. Contact Form (contact): Formulir interaktif bagi pengguna atau calon anggota 
 
 ## 5. Teknologi yang Digunakan
 a. HTML: Struktur dasar dan kerangka halaman web.
-b. CSS : Styling visual, sistem layout grid/flexbox, dan efek transisi interaktif.
+b. CSS : Styling visual, sistem layout grid/flexbox, dan efek transisi interaktif
+
+## 6. Cara Menjalankan Website Secara Lokal
+Bagi yang ingin menjalankan atau menguji kode website ini di komputer lokal:
+Clone repositotry ini ke perangkatmu atau download sebagai ZIP
+git clone = https://github.com/raihanathallahgit07/Game_Community_Project 
+
+## 7. Pembagian Tugas Kontribusi Anggota 
+a. Raihan Athallah Soekardi: Bertanggung jawab dalam perancangan struktur HTML utama, styling CSS layout, tata letak section konten, serta penyusunan logika interaktif halaman.
+b. Ferryz Efsan Adhi Nugraha: Bertanggung jawab dalam penyusunan teks konten/ copywriting materi panduan, perbaikan elemen responsif tampilan, serta pengaturan dokumentasi repository. 
